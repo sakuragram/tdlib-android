@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 group='com.cherrymerryy.tdlib-android'
 
 android {
+    namespace = "org.drinkless.tdlib"
     compileSdk 35
     buildToolsVersion '35.0.0'
 
